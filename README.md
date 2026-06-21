@@ -10,7 +10,7 @@
 
 ```bash
 # Скачайте скрипт
-wget -O /tmp/install_tailscale.sh https://your-server.com/install_tailscale.sh
+wget -O /tmp/install_tailscale.sh https://raw.githubusercontent.com/ElemKai/Tailscale-Script/refs/heads/main/install_tailscale.sh && chmod +x /tmp/install_tailscale.sh && /tmp/install_tailscale.sh
 
 # Или создайте вручную (см. install_tailscale.sh выше)
 
