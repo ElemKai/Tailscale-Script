@@ -48,3 +48,6 @@
 wget -O /tmp/install_tailscale.sh https://raw.githubusercontent.com/ElemKai/Tailscale-Script/refs/heads/main/install_tailscale.sh && \
 chmod +x /tmp/install_tailscale.sh && \
 /tmp/install_tailscale.sh
+
+# Авторизуйте
+tailscale up
